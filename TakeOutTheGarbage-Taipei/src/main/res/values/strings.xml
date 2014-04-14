@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hurry Hurry!Take out the garbage! - Taipei</string>
+
+    <string name="km"> km.</string>
+    <string name="m"> m.</string>
+
+    <string-array name="distict_taipei_multi_lan">
+        <item>Choose Distance or District</item>
+        <item>Distance...</item>
+        <item>Zhongzheng District</item>
+        <item>Datong District</item>
+        <item>Zhongshan District</item>
+        <item>Wanhua District</item>
+        <item>Xinyi District</item>
+        <item>Songshan District</item>
+        <item>Da\'an District</item>
+        <item>Nangang District</item>
+        <item>Beitou District</item>
+        <item>Neihu District</item>
+        <item>Shilin District</item>
+        <item>Wenshan District</item>
+    </string-array>
+
+    <string-array name="district_taipei_latitude">
+        <item>25.03265</item> <!-- 捷運中正紀念堂站 -->
+        <item>25.063209</item><!-- 捷運大橋頭站 -->
+        <item>25.063418</item><!-- 榮星公園 -->
+        <item>25.033194</item><!-- 萬華火車站 -->
+        <item>25.035955</item><!-- 松德公園 -->
+        <item>25.052246</item><!-- 西松國小 -->
+        <item>25.032883</item><!-- 捷運大安站 -->
+        <item>25.046803</item><!-- 中研公園 -->
+        <item>25.127721</item><!-- 奇岩派出所 -->
+        <item>25.083636</item><!-- 捷運內湖站 -->
+        <item>25.105206</item><!-- 聯合醫院陽明院區 -->
+        <item>24.998116</item><!-- 捷運萬芳社區站 -->
+    </string-array>
+
+    <string-array name="district_taipei_longtitude">
+        <item>121.518223</item><!-- 捷運中正紀念堂站 -->
+        <item>121.512773</item><!-- 捷運大橋頭站 -->
+        <item>121.539084</item><!-- 榮星公園 -->
+        <item>121.500793</item><!-- 萬華火車站 -->
+        <item>121.573266</item><!-- 松德公園 -->
+        <item>121.563653</item><!-- 西松國小 -->
+        <item>121.543504</item><!-- 捷運大安站 -->
+        <item>121.61307</item> <!-- 中研公園 -->
+        <item>121.507879</item><!-- 奇岩派出所 -->
+        <item>121.594509</item><!-- 捷運內湖站 -->
+        <item>121.531767</item><!-- 聯合醫院陽明院區 -->
+        <item>121.568159</item><!-- 捷運萬芳社區站 -->
+        <item></item>
+    </string-array>
+
+    <string-array name="distict_taipei">
+        <item>中正區</item><!-- 捷運中正紀念堂站 -->
+        <item>大同區</item><!-- 捷運大橋頭站 -->
+        <item>中山區</item><!-- 榮星公園 -->
+        <item>萬華區</item><!-- 萬華火車站 -->
+        <item>信義區</item><!-- 松德公園 -->
+        <item>松山區</item><!-- 西松國小 -->
+        <item>大安區</item><!-- 捷運大安站 -->
+        <item>南港區</item><!-- 中研公園 -->
+        <item>北投區</item><!-- 奇岩派出所 -->
+        <item>內湖區</item><!-- 捷運內湖站 -->
+        <item>士林區</item><!-- 聯合醫院陽明院區 -->
+        <item>文山區</item><!-- 捷運萬芳社區站 -->
+    </string-array>
+</resources>

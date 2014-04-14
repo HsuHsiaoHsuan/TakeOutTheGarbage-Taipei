@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TakeOutTheGarbage-Taipei.iml" filepath="$PROJECT_DIR$/TakeOutTheGarbage-Taipei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TakeOutTheGarbage-Taipei/TakeOutTheGarbage-Taipei-TakeOutTheGarbage-Taipei.iml" filepath="$PROJECT_DIR$/TakeOutTheGarbage-Taipei/TakeOutTheGarbage-Taipei-TakeOutTheGarbage-Taipei.iml" />
+    </modules>
+  </component>
+</project>
+
