@@ -8,6 +8,7 @@ import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.content.Loader;
 import android.util.Log;
 import android.view.View;
@@ -293,7 +294,13 @@ public class Map extends SherlockFragmentActivity implements GooglePlayServicesC
     private void setUpMapIfNeeded() {
         if(mMap == null) {
 //            mMap = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
-            mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
+            FragmentManager fm = getSupportFragmentManager();
+            if(fm == null) { Log.d(TAG, "----> fragment manager null"); }
+            SupportMapFragment mf = (SupportMapFragment) fm.findFragmentById(R.id.map);
+            if(mf == null) { Log.d(TAG, "----> support map fragment null"); }
+            //mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
+            mMap = mf.getMap();
+            if(mMap == null) { Log.d(TAG, "----> google map null"); }
             if(mMap != null) {
                 setUpMap();
             }
